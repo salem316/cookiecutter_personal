@@ -1,17 +1,8 @@
 # conda env create --file environment.yml
-name: cookie
+name: cookiecutter-personal-platzi
 channels:
   - anaconda
   - conda-forge
   - defaults
 dependencies:
-  - fs
-  - jupyter
-  - jupyterlab
-  - pathlib
-  - pip
-  - pyprojroot
-  - python=3.7
-  - pip:
-    - pyhere
-    
+  - cookiecutter
